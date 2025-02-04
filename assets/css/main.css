@@ -231,6 +231,11 @@ body.body, html {
   overflow-x: hidden;
 }
 
+.contact-box{
+  display: grid !important;
+  grid-template-columns: 30px 100% !important;
+}
+
 body {
   font-family: "Figtree", sans-serif;
   font-size: var(--f-fs-font-fs16);

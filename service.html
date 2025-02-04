@@ -1,643 +1,918 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Service</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service</title>
 
-     <!--=====FAB ICON=======-->
-     <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+    <!--=====FAB ICON=======-->
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
 
+    <!--=====CSS=======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/slick-slider.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/mobile-menu.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 
-     <!--=====CSS=======-->
-     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <link rel="stylesheet" href="assets/css/fontawesome.css">
-     <link rel="stylesheet" href="assets/css/magnific-popup.css">
-     <link rel="stylesheet" href="assets/css/nice-select.css">
-     <link rel="stylesheet" href="assets/css/slick-slider.css">
-     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-     <link rel="stylesheet" href="assets/css/aos.css">
-     <link rel="stylesheet" href="assets/css/mobile-menu.css">
-     <link rel="stylesheet" href="assets/css/main.css">
-
-
-
-     <!--=====JQUERY=======-->
-     <script src="assets/js/jquery-3-6-0.min.js"></script>
-</head>
-<body class="body">
-
+    <!--=====JQUERY=======-->
+    <script src="assets/js/jquery-3-6-0.min.js"></script>
+  </head>
+  <body class="body">
     <!-- Preloader Start -->
-	<div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="/assets/favicon.png" alt=""></div>
-		</div>
-	</div>
-	<!-- Preloader End -->
+    <div class="preloader">
+      <div class="loading-container">
+        <div class="loading"></div>
+        <div id="loading-icon"><img src="/assets/favicon.png" alt="" /></div>
+      </div>
+    </div>
+    <!-- Preloader End -->
 
-  <!--=====progress END=======-->
+    <!--=====progress END=======-->
 
-<div class="paginacontainer"> 
+    <div class="paginacontainer">
+      <div class="progress-wrap">
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </div>
+    </div>
 
-  <div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-    </svg>
-  </div>
+    <header>
+      <div
+        class="header-area header-area1 header-area-all d-none d-lg-block"
+        id="header"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="header-elements">
+                <div class="site-logo">
+                  <a href="/">
+                    <img src="/assets/logo.png" alt="" />
+                  </a>
+                </div>
 
-</div> 
+                <div class="main-menu-ex main-menu-ex1">
+                  <ul>
+                    <li><a href="/index.html">Home</a></li>
 
-   <header>
-     <div class="header-area header-area1 header-area-all d-none d-lg-block" id="header">
-       <div class="container">
-         <div class="row">
-           <div class="col-12">
-             <div class="header-elements">
-               <div class="site-logo">
-                 <a href="/">
-                  <img src="/assets/logo.png" alt="">
-                 </a>
-               </div>
+                    <li class="dropdown-menu-parrent">
+                      <a href="/about.html" class="main1">About Us</a>
+                    </li>
 
+                    <li class="dropdown-menu-parrent">
+                      <a href="/service.html" class="main1"
+                        >Service <i class="fa-solid fa-angle-down"></i
+                      ></a>
+                      <ul>
+                        <!-- <li><a href="">Service</a></li> -->
+                        <li>
+                          <a
+                            href="/services/High-Performance-Team-and-self-managed.html"
+                            >High-Performance Teams/ Self-Managed Teams</a
+                          >
+                        </li>
+                        <li>
+                          <a href="/services/Recruitment-service.html">
+                            Recruitment Services</a
+                          >
+                        </li>
+                        <li>
+                          <a href="/services/Bulk-Hiring-Services.html">
+                            Bulk Hiring Services</a
+                          >
+                        </li>
+                        <li>
+                          <a href="/services/Bulk-Assessmest-Service.html"
+                            >Bulk Assessment Services
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/services/Outsourced-HR-Management-for-MSME.html"
+                            >Outsourced HR Management for MSMEs
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/services/Operational-Excellence-Services.html"
+                            >Operational Excellence Services</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="/services/Comprehensive-Workplace-Insights-and-Feedback-Solutions.html"
+                            >Comprehensive Workplace Insights and Feedback
+                            Solutions</a
+                          >
+                        </li>
+                        <li><a href="">Learning Solutions</a></li>
+                        <li><a href="">Skill Development Services</a></li>
+                        <li><a href="">ER Score Card Services</a></li>
+                      </ul>
+                    </li>
 
-               <div class="main-menu-ex main-menu-ex1">
-                 <ul>
-                  <li><a href="/index.html">Home</a>
-                   
-                  </li>
+                    <li class="dropdown-menu-parrent">
+                      <a href="/testimonial.html" class="main1"
+                        >Client and Testimonials</a
+                      >
+                    </li>
 
-                   
+                    <li class="dropdown-menu-parrent">
+                      <a href="/FAQ.html" class="main1">FAQs</a>
+                    </li>
 
-                   <li class="dropdown-menu-parrent"><a href="/about.html" class="main1" >About Us</a>
-                   
-                  </li>
+                    <li class="dropdown-menu-parrent">
+                      <a href="/contact.html" class="main1">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
 
-                  <li class="dropdown-menu-parrent"><a href="/service.html" class="main1" >Service <i class="fa-solid fa-angle-down"></i></a>
-                    <ul>
-                     <!-- <li><a href="">Service</a></li> -->
-                     <li><a href="/services/High-Performance-Team-and-self-managed.html">High-Performance Teams/ Self-Managed Teams</a></li>
-                     <li><a href="/services/Recruitment-service.html"> Recruitment Services</a></li>
-                     <li><a href="/services/Bulk-Hiring-Services.html"> Bulk Hiring Services</a></li>
-                     <li><a href="/services/Bulk-Assessmest-Service.html">Bulk Assessment Services </a></li>
-                     <li><a href="/services/Outsourced-HR-Management-for-MSME.html">Outsourced HR Management for MSMEs </a></li>
-                     <li><a href="/services/Operational-Excellence-Services.html">Operational Excellence Services</a></li>
-                     <li><a href="/services/Comprehensive-Workplace-Insights-and-Feedback-Solutions.html">Comprehensive Workplace Insights and Feedback Solutions</a></li>
-                     <li><a href="">Learning Solutions</a></li>
-                     <li><a href="">Skill Development Services</a></li>
-                     <li><a href="">ER Score Card Services</a></li>
-                   
-                   
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-menu-parrent"><a href="/testimonial.html" class="main1" >Client and Testimonials</a>
-
-                    <li class="dropdown-menu-parrent"><a href="/FAQ.html" class="main1" >FAQs</a>
-
-                  <li class="dropdown-menu-parrent"><a href="/contact.html" class="main1" >Contact Us</a>
-                    
-   
-                 </ul>
-               </div>
-
-
-
-               <div class="header2-buttons">
-                    <div class="button">
-                      <a class="theme-btn1" href="/contact.html">Contact Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-               </div>
-
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </header>
-   <!--=====HEADER END=======-->
-<style>
-  @media (max-width: 768px) {
-    .logo-m a img{
-      width: 150px;
-    }
-    .mobile-logo a img{
-      width: 120px;
-    }
-  }
-</style>
-          <!--=====Mobile header start=======-->
-          <div class="mobile-header mobile-header-main d-block d-lg-none ">
-            <div class="container-fluid">
-              <div class="col-12">
-                <div class="mobile-header-elements">
-                  <div class="mobile-logo">
-                    <a href="/"><img src="/assets/logo.png" alt=""></a>
-                  </div>
-                  <div class="mobile-nav-icon">
-                    <i class="fa-duotone fa-bars-staggered"></i>
+                <div class="header2-buttons">
+                  <div class="button">
+                    <a class="theme-btn1" href="/contact.html"
+                      >Contact Us
+                      <span><i class="fa-solid fa-arrow-right"></i></span
+                    ></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
-          <div class="mobile-sidebar d-block d-lg-none">
-            <div class="logo-m">
-              <a href="/"><img style="width: 100px;" src="/assets/logo.png" alt=""></a>
+        </div>
+      </div>
+    </header>
+    <!--=====HEADER END=======-->
+    <style>
+      @media (max-width: 768px) {
+        .logo-m a img {
+          width: 150px;
+        }
+        .mobile-logo a img {
+          width: 120px;
+        }
+      }
+    </style>
+    <!--=====Mobile header start=======-->
+    <div class="mobile-header mobile-header-main d-block d-lg-none">
+      <div class="container-fluid">
+        <div class="col-12">
+          <div class="mobile-header-elements">
+            <div class="mobile-logo">
+              <a href="/"><img src="/assets/logo.png" alt="" /></a>
             </div>
-            <div class="menu-close">
-              <i class="fa-solid fa-xmark"></i>
+            <div class="mobile-nav-icon">
+              <i class="fa-duotone fa-bars-staggered"></i>
             </div>
-            <div class="mobile-nav">
-        
-              <ul>
-                <li class="has-dropdown"><a href="/">Home </a> 
-                
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-sidebar d-block d-lg-none">
+      <div class="logo-m">
+        <a href="/"
+          ><img style="width: 100px" src="/assets/logo.png" alt=""
+        /></a>
+      </div>
+      <div class="menu-close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="mobile-nav">
+        <ul>
+          <li class="has-dropdown"><a href="/">Home </a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li class="has-dropdown">
+            <a href="/service.html">Service</a>
+            <ul class="sub-menu">
+              <!-- <li><a href="">Service</a></li> -->
+              <li>
+                <a href="/services/High-Performance-Team-and-self-managed.html"
+                  >High-Performance Teams/ Self-Managed Teams</a
+                >
               </li>
-              <li><a href="/about.html">About Us</a></li>
-              <li class="has-dropdown"><a href="/service.html">Service</a> 
-                <ul class="sub-menu">
-                  <!-- <li><a href="">Service</a></li> -->
-                  <li><a href="/services/High-Performance-Team-and-self-managed.html">High-Performance Teams/ Self-Managed Teams</a></li>
-                  <li><a href="/services/Recruitment-service.html"> Recruitment Services</a></li>
-                  <li><a href="/services/Bulk-Hiring-Services.html"> Bulk Hiring Services</a></li>
-                  <li><a href="/services/Bulk-Assessmest-Service.html">Bulk Assessment Services </a></li>
-                  <li><a href="/services/Outsourced-HR-Management-for-MSME.html">Outsourced HR Management for MSMEs </a></li>
-                  <li><a href="/services/Operational-Excellence-Services.html">Operational Excellence Services</a></li>
-                  <li><a href="/services/Comprehensive-Workplace-Insights-and-Feedback-Solutions.html">Comprehensive Workplace Insights and Feedback Solutions</a></li>
-                  <li><a href="">Learning Solutions</a></li>
-                  <li><a href="">Skill Development Services</a></li>
-                  <li><a href="">ER Score Card Services</a></li>
-                  
-                </ul>
+              <li>
+                <a href="/services/Recruitment-service.html">
+                  Recruitment Services</a
+                >
+              </li>
+              <li>
+                <a href="/services/Bulk-Hiring-Services.html">
+                  Bulk Hiring Services</a
+                >
+              </li>
+              <li>
+                <a href="/services/Bulk-Assessmest-Service.html"
+                  >Bulk Assessment Services
+                </a>
+              </li>
+              <li>
+                <a href="/services/Outsourced-HR-Management-for-MSME.html"
+                  >Outsourced HR Management for MSMEs
+                </a>
+              </li>
+              <li>
+                <a href="/services/Operational-Excellence-Services.html"
+                  >Operational Excellence Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/services/Comprehensive-Workplace-Insights-and-Feedback-Solutions.html"
+                  >Comprehensive Workplace Insights and Feedback Solutions</a
+                >
+              </li>
+              <li><a href="">Learning Solutions</a></li>
+              <li><a href="">Skill Development Services</a></li>
+              <li><a href="">ER Score Card Services</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/testimonial.html">Client and Testimonials</a></li>
+          <li><a href="/FAQ.html">FAQs</a></li>
+        </ul>
+
+        <div class="mobile-button">
+          <a class="theme-btn1" href=""
+            >Contact Us <span><i class="fa-solid fa-arrow-right"></i></span
+          ></a>
+        </div>
+
+        <div class="single-footer-items">
+          <h3>Contact Us</h3>
+
+          <div class="contact-box">
+            <div class="icon">
+              <img src="assets/img/icons/footer-icon1.png" alt="" />
+            </div>
+            <div class="pera">
+              <a href="tel:+91- 8939983080">+91- 8939983080</a>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <div class="icon">
+              <img src="assets/img/icons/footer-icon2.png" alt="" />
+            </div>
+            <div class="pera">
+              <a href="mailto:info@ceohrconsultancy.com"
+                >info@ceohrconsultancy.com</a
+              >
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <div class="icon">
+              <img src="assets/img/icons/footer-icon3.png" alt="" />
+            </div>
+            <div class="pera">
+              <a href=""
+                >9, Pe Ve Plazza, 2nd Floor, Arcot Road, Porur, Chennai, Tamil
+                Nadu, India – 600116</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-infos">
+          <h3>Our Location</h3>
+          <ul class="social-icon">
+            <li>
+              <a href="https://www.linkedin.com/company/136419/"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
             </li>
-    
-    
-            <li><a href="/testimonial.html">Client and Testimonials</a></li>
-            <li><a href="/FAQ.html">FAQs</a></li>
+            <li>
+              <a href="https://twitter.com/CEO_GROUPS"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC4nRMVsjaPXH3qt0HP22zEA"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ceo_hr_consultancy/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-     
-      
-              </ul>
-              
-              <div class="mobile-button">
-                <a class="theme-btn1" href="">Contact Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
+    <!--=====Mobile header end=======-->
+
+    <!--=====HERO AREA START =======-->
+
+    <div class="common-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 m-auto text-center">
+            <div class="main-heading">
+              <h1>Our Service</h1>
+              <div class="pages-intro">
+                <a href="index.html">Home </a>
+                <span><i class="fa-regular fa-angle-right"></i></span>
+                <p>Our Service</p>
               </div>
-    
-              <div class="single-footer-items">
-                <h3>Contact Us</h3>
-
-                <div class="contact-box">
-                  <div class="icon">
-                    <img src="assets/img/icons/footer-icon1.png" alt="">
-                  </div>
-                  <div class="pera">
-                    <a href="tel:+91- 8939983080">+91- 8939983080</a>
-                  </div>
-                </div>
-
-                <div class="contact-box">
-                  <div class="icon">
-                    <img src="assets/img/icons/footer-icon2.png" alt="">
-                  </div>
-                  <div class="pera">
-                    <a href="mailto:info@ceohrconsultancy.com">info@ceohrconsultancy.com</a>
-                  </div>
-                </div>
-
-                <div class="contact-box">
-                  <div class="icon">
-                    <img src="assets/img/icons/footer-icon3.png" alt="">
-                  </div>
-                  <div class="pera">
-                    <a href="">9, Pe Ve Plazza, 2nd Floor, Arcot Road, Porur, Chennai, Tamil Nadu, India – 600116</a>
-                  </div>
-                </div>
-
-           </div>
-    
-              <div class="contact-infos">
-                <h3>Our Location</h3>
-                <ul class="social-icon">
-                  <li><a href="https://www.linkedin.com/company/136419/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                  <li><a href="https://twitter.com/CEO_GROUPS"><i class="fa-brands fa-x-twitter"></i></a></li>
-                  <li><a href="https://www.youtube.com/channel/UC4nRMVsjaPXH3qt0HP22zEA"><i class="fa-brands fa-youtube"></i></a></li>
-                  <li><a href="https://www.instagram.com/ceo_hr_consultancy/"><i class="fa-brands fa-instagram"></i></a></li>
-             </ul>
-              </div>
-    
             </div>
           </div>
-        
-              <!--=====Mobile header end=======-->
-
-        <!--=====HERO AREA START =======-->
-
-        <div class="common-hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 m-auto text-center">
-                        <div class="main-heading">
-                            <h1>Our Service</h1>
-                            <div class="pages-intro">
-                                <a href="index.html">Home </a>
-                                <span><i class="fa-regular fa-angle-right"></i></span>
-                                <p>Our Service</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-        <!--=====HERO AREA END=======-->
+      </div>
+    </div>
+    <!--=====HERO AREA END=======-->
 
-           <!--=====ABOUT AREA START=======-->
+    <!--=====ABOUT AREA START=======-->
 
-        <div class="chosse1 sp">
-          <div class="container">
-
-
-            <div class="row align-items-center">
-              
-              <div class="col-lg-6">
-                <div class="image reveal overlay-anim">
-                  <img src="/assets/home/choose1-img.png" alt="">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="heading1 choose1-heading">
-                  <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
-                  <h2 class="text-anime-style-3">High-Performance Teams / Self-Managed Teams </h2>
-                  <div class="space16"></div>
-                  <p data-aos="fade-left" data-aos-duration="900">  Empower your organization with teams that thrive on accountability, collaboration, and efficiency. Our proven High-Performance Teams (HPT) framework delivers measurable results, including increased productivity, reduced supervision, and enhanced employee engagement.</p>
-                  
-                  <div class="space10"></div>
-                  <h3 class="text-anime-style-3">Key Features  </h3>
-                  <div class="space10"></div>
-                  <div class="row" data-aos="fade-left" data-aos-duration="800">
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Cultural visioning and team alignment</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Leader preparation through the "Learn-Teach-Learn" methodology</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Team-based scorecards and rewards</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Self-governance systems like HVAT</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li>Peer-based performance and recognition frameworks</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="space30"></div>
-                  <div class="" data-aos="fade-left" data-aos-duration="1100">
-                    <a class="theme-btn1" href="">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
+    <div class="chosse1 sp">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="image reveal overlay-anim">
+              <img
+                src="/assets/service/High-Performance Teams : Self-Managed Teams-img.png"
+                alt=""
+              />
             </div>
-
-
-
-            
-            <div class="row align-items-center" style="margin-top: 80px;">
-              
-              <div class="col-lg-6">
-                <div class="heading1 choose1-heading">
-                  <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
-                  <h2 class="text-anime-style-3">Recruitment  </h2>
-                  <div class="space16"></div>
-                  <p data-aos="fade-left" data-aos-duration="900"> Find the right talent to propel your organization forward. From junior engineers to C-suite executives, we specialize in sourcing, assessing, and placing candidates tailored to your business needs.</p>
-                  
-                  <div class="space10"></div>
-                  <h3 class="text-anime-style-3">Key Features  </h3>
-                  <div class="space10"></div>
-                  <div class="row" data-aos="fade-left" data-aos-duration="800">
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Executive search and headhunting</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Role-based competency assessments</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Industry-specific recruitment strategies</li>
-                      </ul>
-                    </div>
-                   
-                  </div>
-                  <div class="space30"></div>
-                  <div class="" data-aos="fade-left" data-aos-duration="1100">
-                    <a class="theme-btn1" href="">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6" style="display: flex ; justify-content: end;">
-                <div class="image reveal overlay-anim">
-                  <img src="/assets/home/choose1-img.png" alt="">
-                </div>
-              </div>
-              
-            </div>
-
-
-      
-            <div class="row align-items-center" style="margin-top: 80px;">
-              
-              <div class="col-lg-6">
-                <div class="image reveal overlay-anim">
-                  <img src="/assets/home/choose1-img.png" alt="">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="heading1 choose1-heading">
-                  <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
-                  <h2 class="text-anime-style-3">Bulk Hiring  </h2>
-                  <div class="space16"></div>
-                  <p data-aos="fade-left" data-aos-duration="900">  Scale your workforce effectively with our streamlined bulk hiring solutions. We ensure the rapid acquisition of top-tier talent for large-scale operational needs without compromising on quality.</p>
-                  
-                  <div class="space10"></div>
-                  <h3 class="text-anime-style-3">Key Features  </h3>
-                  <div class="space10"></div>
-                  <div class="row" data-aos="fade-left" data-aos-duration="800">
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li>Proven processes for high-volume recruitment</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> End-to-end candidate management</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Industry and role-specific hiring strategies</li>
-                      </ul>
-                    </div>
-                   
-                  </div>
-                  <div class="space30"></div>
-                  <div class="" data-aos="fade-left" data-aos-duration="1100">
-                    <a class="theme-btn1" href="">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            
-            <div class="row align-items-center" style="margin-top: 80px;">
-              
-              <div class="col-lg-6">
-                <div class="heading1 choose1-heading">
-                  <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
-                  <h2 class="text-anime-style-3">Bulk Assessment   </h2>
-                  <div class="space16"></div>
-                  <p data-aos="fade-left" data-aos-duration="900"> Revolutionizing talent evaluation for large-scale recruitment, our Bulk Assessment services combine expertise with cutting-edge technology to deliver precise and reliable results. <br>
-                    With over 5,00,000 assessments conducted and 45,000+ placements, we have the experience to meet high-volume hiring demands. Beyond numbers, we promote diversity and inclusion, helping clients build all-women workforces and enabling opportunities. <br>
-                    Our mobile infrastructure, powered by 500+ smart devices, transforms even remote locations into fully functional digital assessment centers.
-                    .</p>
-                  
-                  <div class="space10"></div>
-                  <h3 class="text-anime-style-3">Key Features  </h3>
-                  <div class="space10"></div>
-                  <div class="row" data-aos="fade-left" data-aos-duration="800">
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li>	Psychometric and skill-based assessments</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Logical reasoning, spatial ability, and technical skills evaluation</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Customized assessment frameworks</li>
-                      </ul>
-                    </div>
-                   
-                  </div>
-                  <div class="space30"></div>
-                  <div class="" data-aos="fade-left" data-aos-duration="1100">
-                    <a class="theme-btn1" href="">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6" style="display: flex ; justify-content: end;">
-                <div class="image reveal overlay-anim">
-                  <img src="/assets/home/choose1-img.png" alt="">
-                </div>
-              </div>
-              
-            </div>
-
-
-
-            
-      
-            <div class="row align-items-center" style="margin-top: 80px;">
-              
-              <div class="col-lg-6">
-                <div class="image reveal overlay-anim">
-                  <img src="/assets/home/choose1-img.png" alt="">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="heading1 choose1-heading">
-                  <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
-                  <h2 class="text-anime-style-3">Outsourced HR Management for MSMEs   </h2>
-                  <div class="space16"></div>
-                  <p data-aos="fade-left" data-aos-duration="900">  Simplify your HR operations with our end-to-end HR management services tailored specifically for MSMEs. From onboarding to exit, we handle all your HR needs so you can focus on growing your business.</p>
-                  
-                  <div class="space10"></div>
-                  <h3 class="text-anime-style-3">Key Features  </h3>
-                  <div class="space10"></div>
-                  <div class="row" data-aos="fade-left" data-aos-duration="800">
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li>Complete HR lifecycle management</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Compliance with labor laws and standards</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-12">
-                      <ul class="icon-list" style="list-style: disc;">
-                        <li> Strategic alignment with business goals</li>
-                      </ul>
-                    </div>
-                   
-                  </div>
-                  <div class="space30"></div>
-                  <div class="" data-aos="fade-left" data-aos-duration="1100">
-                    <a class="theme-btn1" href="">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
           </div>
+          <div class="col-lg-6">
+            <div class="heading1 choose1-heading">
+              <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
+              <h2 class="text-anime-style-3">
+                High-Performance Teams / Self-Managed Teams
+              </h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="900">
+                Empower your organization with teams that thrive on
+                accountability, collaboration, and efficiency. Our proven
+                High-Performance Teams (HPT) framework delivers measurable
+                results, including increased productivity, reduced supervision,
+                and enhanced employee engagement.
+              </p>
 
-    
+              <div class="space10"></div>
+              <h3 class="text-anime-style-3">Key Features</h3>
+              <div class="space10"></div>
+              <div class="row" data-aos="fade-left" data-aos-duration="800">
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Cultural visioning and team alignment</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>
+                      Leader preparation through the "Learn-Teach-Learn"
+                      methodology
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Team-based scorecards and rewards</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Self-governance systems like HVAT</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Peer-based performance and recognition frameworks</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="space30"></div>
+              <div class="" data-aos="fade-left" data-aos-duration="1100">
+                <a class="theme-btn1" href=""
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
 
-       
+        <div class="row align-items-center" style="margin-top: 80px">
+          <div class="col-lg-6">
+            <div class="heading1 choose1-heading">
+              <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
+              <h2 class="text-anime-style-3">Recruitment</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="900">
+                Find the right talent to propel your organization forward. From
+                junior engineers to C-suite executives, we specialize in
+                sourcing, assessing, and placing candidates tailored to your
+                business needs.
+              </p>
 
-            <!--===== FOOTER AREA START =======-->
-
-                <div class="footer1 _relative">
-                  <div class="container">
-                       <div class="row">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                 <div class="single-footer-items footer-logo-area">
-                                      <div class="footer-logo">
-                                        <a href="/"><img style="width: 150px;" src="/assets/logo.png" alt=""></a>
-                                      </div>
-                                      <div class="space20"></div>
-                                      <div class="heading1-w">
-                                        <p>Transforming
-                                          Businesses,
-                                          Empowering Teams,
-                                          Driving Excellence.</p>
-                                          
-                                      </div>
-                                      <ul class="social-icon">
-                                           <li><a href="https://www.linkedin.com/company/136419/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                           <li><a href="https://twitter.com/CEO_GROUPS"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                           <li><a href="https://www.youtube.com/channel/UC4nRMVsjaPXH3qt0HP22zEA"><i class="fa-brands fa-youtube"></i></a></li>
-                                           <li><a href="https://www.instagram.com/ceo_hr_consultancy/"><i class="fa-brands fa-instagram"></i></a></li>
-                                      </ul>
-                                 </div>
-                            </div>
-        
-                            <div class="col-lg col-md-6 col-12">
-                                 <div class="single-footer-items">
-                                      <h3>Quick Links</h3>
-        
-                                      <ul class="menu-list">
-                                           <li><a href="/service.html">Service</a></li>
-                                           <li><a href="#">HPT Resources</a></li>
-                                           <li><a href="#">Our Team</a></li>
-                                           <li><a href="#">Free Tool</a></li>
-                                           <li><a href="/FAQ.html">FAQS</a></li>
-                                      </ul>
-                                 </div>
-                            </div>
-        
-                            <div class="col-lg col-md-6 col-12">
-                                 <div class="single-footer-items pl-5">
-                                      <h3>Explore</h3>
-        
-                                      <ul class="menu-list">
-                                           <li><a href="/">Home </a></li>
-                                           <li><a href="/about.html">About Us</a></li>
-                                           <li><a href="/testimonial.html">Testimonial</a></li>
-                                           <li><a href="/contact.html">Contact US</a></li>
-                                           <li><a href="/Privacy-Policy-Terms-of-Use.html">Privacy Policy & <br> Terms of Use</a></li>
-                                      </ul>
-                                 </div>
-                            </div>
-        
-        
-                            <div class="col-lg-3 col-md-6 col-12">
-                                 <div class="single-footer-items">
-                                      <h3>Contact Us</h3>
-        
-                                      <div class="contact-box">
-                                        <div class="icon">
-                                          <img src="assets/img/icons/footer-icon1.png" alt="">
-                                        </div>
-                                        <div class="pera">
-                                          <a href="tel:+91- 8939983080">+91- 8939983080</a>
-                                        </div>
-                                      </div>
-
-                                      <div class="contact-box">
-                                        <div class="icon">
-                                          <img src="assets/img/icons/footer-icon2.png" alt="">
-                                        </div>
-                                        <div class="pera">
-                                          <a href="mailto:info@ceohrconsultancy.com">info@ceohrconsultancy.com</a>
-                                        </div>
-                                      </div>
-
-                                      <div class="contact-box">
-                                        <div class="icon">
-                                          <img src="assets/img/icons/footer-icon3.png" alt="">
-                                        </div>
-                                        <div class="pera">
-                                          <a>9, Pe Ve Plazza, 2nd Floor, Arcot Road, Porur, Chennai, Tamil Nadu, India – 600116</a>
-                                        </div>
-                                      </div>
-        
-                                 </div>
-                            </div>
-        
-                       </div>
-        
-                       <div class="space70"></div>
-                  </div>
-
-                  <div class="copyright-area _relative">
-                    <div class="container">
-                      <div class="row align-items-center">
-                        <div class="col-md-12">
-                             <div class="coppyright">
-                               <p>© Copyright 2025 - CEO HR Consultancy. All Right Reserved</p>
-                             </div>
-                        </div>
-                   </div>
-                  </div>
-                    
-               </div>
-      
+              <div class="space10"></div>
+              <h3 class="text-anime-style-3">Key Features</h3>
+              <div class="space10"></div>
+              <div class="row" data-aos="fade-left" data-aos-duration="800">
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Executive search and headhunting</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Role-based competency assessments</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Industry-specific recruitment strategies</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="space30"></div>
+              <div class="" data-aos="fade-left" data-aos-duration="1100">
+                <a class="theme-btn1" href=""
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
             </div>
-        
-                <!--===== FOOTER AREA END =======-->
+          </div>
+          <div class="col-lg-6" style="display: flex; justify-content: end">
+            <div class="image reveal overlay-anim">
+              <img src="/assets/service/Recruitment-img.png" alt="" />
+            </div>
+          </div>
+        </div>
 
+        <div class="row align-items-center" style="margin-top: 80px">
+          <div class="col-lg-6">
+            <div class="image reveal overlay-anim">
+              <img src="/assets/service/Bulk Hiring-img.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="heading1 choose1-heading">
+              <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
+              <h2 class="text-anime-style-3">Bulk Hiring</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="900">
+                Scale your workforce effectively with our streamlined bulk
+                hiring solutions. We ensure the rapid acquisition of top-tier
+                talent for large-scale operational needs without compromising on
+                quality.
+              </p>
 
+              <div class="space10"></div>
+              <h3 class="text-anime-style-3">Key Features</h3>
+              <div class="space10"></div>
+              <div class="row" data-aos="fade-left" data-aos-duration="800">
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Proven processes for high-volume recruitment</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>End-to-end candidate management</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Industry and role-specific hiring strategies</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="space30"></div>
+              <div class="" data-aos="fade-left" data-aos-duration="1100">
+                <a class="theme-btn1" href=""
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="row align-items-center" style="margin-top: 80px">
+          <div class="col-lg-6">
+            <div class="heading1 choose1-heading">
+              <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
+              <h2 class="text-anime-style-3">Bulk Assessment</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="900">
+                Revolutionizing talent evaluation for large-scale recruitment,
+                our Bulk Assessment services combine expertise with cutting-edge
+                technology to deliver precise and reliable results. <br />
+                With over 5,00,000 assessments conducted and 45,000+ placements,
+                we have the experience to meet high-volume hiring demands.
+                Beyond numbers, we promote diversity and inclusion, helping
+                clients build all-women workforces and enabling opportunities.
+                <br />
+                Our mobile infrastructure, powered by 500+ smart devices,
+                transforms even remote locations into fully functional digital
+                assessment centers. .
+              </p>
 
-                <script src="assets/js/bootstrap.min.js"></script>
-                <script src="assets/js/aos.js"></script>
-                <script src="assets/js/fontawesome.js"></script>
-                <script src="assets/js/jquery.countup.js"></script>
-                <script src="assets/js/mobile-menu.js"></script>
-                <script src="assets/js/jquery.magnific-popup.js"></script>
-                <script src="assets/js/owl.carousel.min.js"></script>
-                <script src="assets/js/slick-slider.js"></script>
-                <script src="assets/js/gsap.min.js"></script>
-                <script src="assets/js/ScrollTrigger.min.js"></script>
-                <script src="assets/js/Splitetext.js"></script>
-                <script src="assets/js/SmoothScroll.js"></script>
-                <script src="assets/js/text-animation.js"></script>
-                <script src="assets/js/jquery.lineProgressbar.js"></script>
-                <script src="assets/js/tilt.jquery.js"></script>
-                <script src="assets/js/main.js"></script>
+              <div class="space10"></div>
+              <h3 class="text-anime-style-3">Key Features</h3>
+              <div class="space10"></div>
+              <div class="row" data-aos="fade-left" data-aos-duration="800">
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Psychometric and skill-based assessments</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>
+                      Logical reasoning, spatial ability, and technical skills
+                      evaluation
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Customized assessment frameworks</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="space30"></div>
+              <div class="" data-aos="fade-left" data-aos-duration="1100">
+                <a class="theme-btn1" href=""
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" style="display: flex; justify-content: end">
+            <div class="image reveal overlay-anim">
+              <img src="/assets/service/Bulk Assessment-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center" style="margin-top: 80px">
+          <div class="col-lg-6">
+            <div class="image reveal overlay-anim">
+              <img src="/assets/service/OutSourcing-img.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="heading1 choose1-heading">
+              <!-- <span class="span" data-aos="fade-left" data-aos-duration="700">About Us </span> -->
+              <h2 class="text-anime-style-3">
+                Outsourced HR Management for MSMEs
+              </h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="900">
+                Simplify your HR operations with our end-to-end HR management
+                services tailored specifically for MSMEs. From onboarding to
+                exit, we handle all your HR needs so you can focus on growing
+                your business.
+              </p>
+
+              <div class="space10"></div>
+              <h3 class="text-anime-style-3">Key Features</h3>
+              <div class="space10"></div>
+              <div class="row" data-aos="fade-left" data-aos-duration="800">
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Complete HR lifecycle management</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Compliance with labor laws and standards</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="icon-list" style="list-style: disc">
+                    <li>Strategic alignment with business goals</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="space30"></div>
+              <div class="" data-aos="fade-left" data-aos-duration="1100">
+                <a class="theme-btn1" href=""
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-benefits5 pb120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 m-auto text-center">
+            <div class="heading5">
+              <span class="span" data-aos="zoom-in-left" data-aos-duration="700"
+                >Other Service</span
+              >
+              <h2 class="text-anime-style-3">Explore Our More Services</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="900">
+                Whether you're a small business or a large corporation, our
+                flexible staffing options and exceptional candidate matching
+                ensure that you find
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space30"></div>
+         
           
-</body>
+        <div class="project-two__single-box">
+          <ul class="project-two__box list-unstyled">
+              <li>
+                  <div class="project-two__box-content">
+                      <div class="single-project-two__bg"
+                          style="background-image: url(assets/img/project/project1-img7.png);">
+                      </div>
+                      <div class="img-holder-img-bg"></div>
+                      <div class="project-two__box-content-inner-icon">
+                          <a href="#" class="img-popup"><i
+                                  class="icon-next"></i></a>
+                      </div>
+                      <div class="project-two__box-content-inner">
+                          <div class="project-two__box-content-inner-wrapper">
+                              
+                              <h4><a href="  ">Operational Excellence</a></h4>
+                          </div>
+                          <div class="icon">
+                            <a href="  "><i class="fa-solid fa-arrow-right"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li class="active">
+                  <div class="project-two__box-content">
+                      <div class="single-project-two__bg"
+                          style="background-image: url(assets/img/project/project1-img8.png);">
+                      </div>
+                      <div class="img-holder-img-bg"></div>
+                      <div class="project-two__box-content-inner-icon">
+                          <a href="assets/img/service/service1-img8.png" class="img-popup"><i
+                                  class="icon-next"></i></a>
+                      </div>
+                      <div class="project-two__box-content-inner">
+                        <div class="project-two__box-content-inner-wrapper">
+                            
+                            <h4><a href="  ">Employee Engagement </a></h4>
+                        </div>
+                        <div class="icon">
+                          <a href="  "><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="project-two__box-content">
+                      <div class="single-project-two__bg"
+                          style="background-image: url(assets/img/project/project1-img9.png);">
+                      </div>
+                      <div class="img-holder-img-bg"></div>
+                      <div class="project-two__box-content-inner-icon">
+                          <a href="assets/img/service/service1-img9.png" class="img-popup"><i
+                                  class="icon-next"></i></a>
+                      </div>
+                      <div class="project-two__box-content-inner">
+                        <div class="project-two__box-content-inner-wrapper">
+                            
+                            <h4><a href="  ">Learning Solutions</a></h4>
+                        </div>
+                        <div class="icon">
+                          <a href="  "><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                  </div>
+              </li>
+
+            
+          </ul>
+      </div>
+
+      <div class="space30"></div>
+
+      <div class="project-two__single-box">
+        <ul class="project-two__box list-unstyled">
+            <li>
+                <div class="project-two__box-content">
+                    <div class="single-project-two__bg"
+                        style="background-image: url(assets/img/project/project1-img7.png);">
+                    </div>
+                    <div class="img-holder-img-bg"></div>
+                    <div class="project-two__box-content-inner-icon">
+                        <a href="#" class="img-popup"><i
+                                class="icon-next"></i></a>
+                    </div>
+                    <div class="project-two__box-content-inner">
+                        <div class="project-two__box-content-inner-wrapper">
+                            
+                            <h4><a href="  ">Skill Development </a></h4>
+                        </div>
+                        <div class="icon">
+                          <a href="  "><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="active">
+                <div class="project-two__box-content">
+                    <div class="single-project-two__bg"
+                        style="background-image: url(assets/img/project/project1-img8.png);">
+                    </div>
+                    <div class="img-holder-img-bg"></div>
+                    <div class="project-two__box-content-inner-icon">
+                        <a href="assets/img/service/service1-img8.png" class="img-popup"><i
+                                class="icon-next"></i></a>
+                    </div>
+                    <div class="project-two__box-content-inner">
+                      <div class="project-two__box-content-inner-wrapper">
+                          
+                          <h4><a href="  ">ER Score Card </a></h4>
+                      </div>
+                      <div class="icon">
+                        <a href="  "><i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
+            </li>
+             
+
+          
+        </ul>
+    </div>
+
+      </div>
+    </div>
+
+    <!--===== FOOTER AREA START =======-->
+
+    <div class="footer1 _relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-footer-items footer-logo-area">
+              <div class="footer-logo">
+                <a href="/"
+                  ><img style="width: 150px" src="/assets/logo.png" alt=""
+                /></a>
+              </div>
+              <div class="space20"></div>
+              <div class="heading1-w">
+                <p>
+                  Transforming Businesses, Empowering Teams, Driving Excellence.
+                </p>
+              </div>
+              <ul class="social-icon">
+                <li>
+                  <a href="https://www.linkedin.com/company/136419/"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/CEO_GROUPS"
+                    ><i class="fa-brands fa-x-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UC4nRMVsjaPXH3qt0HP22zEA"
+                    ><i class="fa-brands fa-youtube"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/ceo_hr_consultancy/"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-6 col-12">
+            <div class="single-footer-items">
+              <h3>Quick Links</h3>
+
+              <ul class="menu-list">
+                <li><a href="/service.html">Service</a></li>
+                <li><a href="#">HPT Resources</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Free Tool</a></li>
+                <li><a href="/FAQ.html">FAQS</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-6 col-12">
+            <div class="single-footer-items pl-5">
+              <h3>Explore</h3>
+
+              <ul class="menu-list">
+                <li><a href="/">Home </a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/testimonial.html">Testimonial</a></li>
+                <li><a href="/contact.html">Contact US</a></li>
+                <li>
+                  <a href="/Privacy-Policy-Terms-of-Use.html"
+                    >Privacy Policy & <br />
+                    Terms of Use</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer-items">
+              <h3>Contact Us</h3>
+
+              <div class="contact-box">
+                <div class="icon">
+                  <img src="assets/img/icons/footer-icon1.png" alt="" />
+                </div>
+                <div class="pera">
+                  <a href="tel:+91- 8939983080">+91- 8939983080</a>
+                </div>
+              </div>
+
+              <div class="contact-box">
+                <div class="icon">
+                  <img src="assets/img/icons/footer-icon2.png" alt="" />
+                </div>
+                <div class="pera">
+                  <a href="mailto:info@ceohrconsultancy.com"
+                    >info@ceohrconsultancy.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-box">
+                <div class="icon">
+                  <img src="assets/img/icons/footer-icon3.png" alt="" />
+                </div>
+                <div class="pera">
+                  <a
+                    >9, Pe Ve Plazza, 2nd Floor, Arcot Road, Porur, Chennai,
+                    Tamil Nadu, India – 600116</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="space70"></div>
+      </div>
+
+      <div class="copyright-area _relative">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <div class="coppyright">
+                <p>© Copyright 2025 - CEO HR Consultancy. All Right Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--===== FOOTER AREA END =======-->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/fontawesome.js"></script>
+    <script src="assets/js/jquery.countup.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/Splitetext.js"></script>
+    <script src="assets/js/SmoothScroll.js"></script>
+    <script src="assets/js/text-animation.js"></script>
+    <script src="assets/js/jquery.lineProgressbar.js"></script>
+    <script src="assets/js/tilt.jquery.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
+
