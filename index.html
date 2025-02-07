@@ -185,8 +185,8 @@
                           >
                         </li>
                         <li><a href="/services/Learning-solution.html">Learning Solutions</a></li>
-                        <li><a href="">Skill Development Services</a></li>
-                        <li><a href="">ER Score Card Services</a></li>
+                        <li><a href="/services/Skill-development.html">Skill Development Services</a></li>
+                        <li><a href="/services/ER-Score-Card-Service.html">ER Score Card Services</a></li>
                         <li><a href="">Free Tools</a></li>
                       </ul>
                     </li>
@@ -325,9 +325,9 @@
                   >Comprehensive Workplace Insights and Feedback Solutions</a
                 >
               </li>
-              <li><a href="">Learning Solutions</a></li>
-              <li><a href="">Skill Development Services</a></li>
-              <li><a href="">ER Score Card Services</a></li>
+              <li><a href="/services/Learning-solution.html">Learning Solutions</a></li>
+              <li><a href="/services/Skill-development.html">Skill Development Services</a></li>
+              <li><a href="/services/ER-Score-Card-Service.html">ER Score Card Services</a></li>
             </ul>
           </li>
 
@@ -468,54 +468,29 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="logo-slider">
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo1.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo2.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo3.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo4.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo5.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo6.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo7.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo1.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo2.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo3.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo4.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo5.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo6.png" alt="" />
-              </div>
-              <div class="single-slider">
-                <img src="assets/img/logo/slider-logo7.png" alt="" />
-              </div>
+            <div class="logo-slider" id="single-slider">
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      const container = document.getElementById("single-slider");
+    
+      for (let i = 1; i <= 122; i++) {
+        const div = document.createElement("div");
+        div.className = "single-slider";
+        
+        const img = document.createElement("img");
+        img.src = `/assets/icons/logos/${i}.png`;
+        img.alt = `Logo ${i}`;
+        img.style=`height:70px; margin-right:20px`
+    
+        div.appendChild(img);
+        container.appendChild(div);
+      }
+    </script>
 
     <!--=====HERO SLIDER AREA END=======-->
 
