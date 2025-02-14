@@ -20949,3 +20949,79 @@ li.has-dropdown1 span {
 *//*# sourceMappingURL=main.css.map */
 
  
+.service-benefits5 .benefits-box::after{
+  background-color: #FF7A02 !important;
+ }
+
+
+ .service8 .service-box:hover{
+  background-color: #FF7A02 !important;
+ }
+
+
+ .tes2 .owl-dots button.active{
+  background-color: #ff910a !important;
+ }
+
+ .hero-area4 {
+
+  background-color: #FF910B;
+  min-height: 100% !important;
+ }
+
+ .hero-area4 .main-heading p{
+  color: white !important;
+ }
+
+ .solution4-box {
+
+  background-color: #FF7A02 !important;
+ }
+ .heading2 p{
+  font-size: 20px !important;
+ }
+ .heading4 h4 a{
+  color: white !important;
+ }
+
+ .heading4 p{
+  color: white !important;
+ }
+
+ .service-benefits5 .benefits-box .icon{
+  background-color: white !important;
+ }
+
+ .solution4-box:hover .icon{
+  background-color: white !important;
+ }
+
+ .solution4-box:hover .icon img{
+  filter: none !important;
+ }
+
+ .theme-btn4{
+  background-color:#FF7A02 !important; 
+ }
+
+ .theme-btn4::after{
+  background-color:#FF7A02 !important; 
+
+ }
+
+ .theme-btn5::after{
+  background-color:#FF7A02 !important; 
+
+ }
+
+ .theme-btn5:hover{
+  border: none !important;
+ }
+
+ .service-benefits5 .benefits-box{
+  height: 350px;
+ }
+
+ .hero1-slider {
+  padding: 14px 0px !important;
+ }
