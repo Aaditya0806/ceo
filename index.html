@@ -63,12 +63,7 @@
   </head>
   <body class="body">
     <!-- Preloader Start -->
-    <div class="preloader">
-      <div class="loading-container">
-        <div class="loading"></div>
-        <div id="loading-icon"><img src="/assets/favicon.png" alt="" /></div>
-      </div>
-    </div>
+  
     <!-- Preloader End -->
 
     <!--=====progress END=======-->
@@ -481,11 +476,11 @@
       for (let i = 1; i <= 122; i++) {
         const div = document.createElement("div");
         div.className = "single-slider";
-        div.style="margin-left:10px; margin-right:10px; display:flex; justify-content:center; align-items:center"
+        div.style=" margin-left:10px; margin-right:10px display:flex; justify-content:center; align-items:center"
         const img = document.createElement("img");
         img.src = `/assets/icons/logos/${i}.png`;
         img.alt = `Logo ${i}`;
-        img.style=`height:50px;  background:white`
+        img.style=`width:100%; height:50px;  background:white; object-fit:contain`
     
         div.appendChild(img);
         container.appendChild(div);
@@ -500,7 +495,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="image reveal">
-                <img src="assets/img/about/about3-img1.png" alt="" />
+                <img src="/assets/about3-img 1.png" alt="" />
               </div>
               <div
                 class="conter-box conter-box1"
@@ -524,7 +519,7 @@
                 <p>clients across six countries</p>
               </div>
               <div class="image reveal overlay-anim">
-                <img src="assets/img/about/about3-img2.png" alt="" />
+                <img src="/assets/about3-img 2.png" alt="" />
               </div>
             </div>
           </div>
