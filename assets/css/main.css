@@ -1637,7 +1637,7 @@ body.body {
   --vtc-text-pera-text-3: #5A5F6A;
   --vtc-text-text-white-text-1: #ffffff;
   --vtc-bg-main-bg-1: #FF7A01;
-  --vtc-bg-main-bg-2: #FC253F;
+  --vtc-bg-main-bg-2: #FF7A01;
   --vtc-bg-main-bg-3: #FD965B;
   --vtc-bg-main-bg-4: #23342E;
   --vtc-bg-main-bg-5: #19326A;
@@ -3606,7 +3606,7 @@ body.body {
   line-height: 18px; /* 100% */
   text-transform: uppercase;
   display: inline-block;
-  background-color: #FA6444;
+  background-color: #FF7A01;
   border-radius: 8px;
   padding: 18px 22px;
   transition: all 0.4s;
@@ -3876,7 +3876,7 @@ body.body {
   transition: all 0.4s;
 }
 .about4 .heading4 .about4-box:hover .icon {
-  background-color: var(--vtc-bg-main-bg-5);
+  background-color: #fc7629;
   transition: all 0.4s;
 }
 .about4 .heading4 .about4-box:hover .icon img {
@@ -4895,7 +4895,7 @@ body.body {
   left: 0;
   transform: rotateY(95deg);
   transition: all 0.6s linear;
-  background-color: var(--vtc-bg-main-bg-2);
+  background-color: white;
   z-index: -1;
   opacity: 0;
 }
@@ -4908,7 +4908,7 @@ body.body {
   top: 0;
   left: 0;
   transition: all 0.6s linear;
-  background-color: #282A5E;
+  background-color: white;
   z-index: -3;
 }
 .service-benefits .benefits-box h4 a {
@@ -4920,7 +4920,7 @@ body.body {
   line-height: 70px;
   text-align: center;
   border-radius: 50%;
-  background-color: #46466B;
+  background-color: #fc7629;
   transition: all 0.4s;
   margin-bottom: 30px;
 }
@@ -5110,7 +5110,7 @@ body.body {
   line-height: 70px;
   text-align: center;
   border-radius: 50%;
-  background-color: #F3DFE5;
+  background-color: #FFF;
   position: absolute;
   top: -35px;
   left: 30px;
@@ -5684,7 +5684,7 @@ body.body {
   transition: all 0.4s;
 }
 .service9 .service-box h4 a:hover {
-  color: #2A9134;
+  color: black;
   transition: all 0.4s;
 }
 .service9 .service-box p {
@@ -9375,21 +9375,21 @@ body.body {
   }
 }
 .hero7 .hero7-images .cs_case_study_thumb {
-  background-image: url(../img/hero/hero7-image1.png);
+  background-image: url(/assets/Communication/Banner\ 1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 .hero7 .hero7-images .cs_case_study_thumb.cs_case_study_thumb2 {
-  background-image: url(../img/hero/hero7-image2.png);
+  background-image: url(/assets/Communication/Banner\ 2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 .hero7 .hero7-images .cs_case_study_thumb.cs_case_study_thumb3 {
-  background-image: url(../img/hero/hero7-image3.png);
+  background-image: url(/assets/Communication/Banner\ 3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11192,7 +11192,7 @@ body.body {
 }
 
 .project-two__box li.active {
-  flex: 0 0 50%;
+  /* flex: 0 0 50%; */
 }
 
 .project-two__box.project-two__box2 li {
@@ -11367,7 +11367,7 @@ body.body {
     flex: 1;
   }
   .project-two__box li.active {
-    flex: 1.66;
+    /* flex: 1.66; */
   }
   .project-two__box.project-two__box2 li {
     flex: 1.66;
@@ -11378,8 +11378,8 @@ body.body {
   }
   .project-two__box li.active .project-two__box-content .project-two__box-content-inner {
     opacity: 1;
-    transform: perspective(540px) rotateY(0deg) translateY(0px);
-    transition-delay: 500ms;
+    /* transform: perspective(540px) rotateY(0deg) translateY(0px);
+    transition-delay: 500ms; */
   }
   .project-two__box li.active .project-two__box-content .project-two__box-content-inner .icon a {
     display: inline-block;
@@ -11413,7 +11413,7 @@ body.body {
     padding: 100px 0 100px;
   }
   .project-two__box li.active {
-    flex: 0 0 100%;
+    /* flex: 0 0 100%; */
   }
   .project-two__box.project-two__box2 li {
     flex: 0 0 100%;
@@ -12038,7 +12038,7 @@ body.body {
   transition: all 0.5s ease;
 }
 .case6 .project-two__box li.active {
-  flex: 0 0 50%;
+  /* flex: 0 0 50%; */
 }
 .case6 .project-two__box.project-two__box2 li {
   flex: 0 0 50%;
@@ -12204,19 +12204,19 @@ body.body {
     flex: 1;
   }
   .case6 .project-two__box li.active {
-    flex: 1.66;
+    /* flex: 1.66; */
   }
   .case6 .project-two__box.project-two__box2 li {
     flex: 1.66;
   }
   .case6 .project-two__box li.active .project-two__box-content .img-holder-img-bg {
     opacity: 0.8;
-    transform: perspective(540px) rotateX(0deg);
+    /* transform: perspective(540px) rotateX(0deg); */
   }
   .case6 .project-two__box li.active .project-two__box-content .project-two__box-content-inner {
     opacity: 1;
-    transform: perspective(540px) rotateY(0deg) translateY(0px);
-    transition-delay: 500ms;
+    /* transform: perspective(540px) rotateY(0deg) translateY(0px);
+    transition-delay: 500ms; */
   }
   .case6 .project-two__box li.active .project-two__box-content .project-two__box-content-inner .icon a {
     display: inline-block;
@@ -12248,7 +12248,7 @@ body.body {
     padding: 100px 0 100px;
   }
   .case6 .project-two__box li.active {
-    flex: 0 0 100%;
+    /* flex: 0 0 100%; */
   }
   .case6 .project-two__box.project-two__box2 li {
     flex: 0 0 100%;
@@ -12438,7 +12438,7 @@ body.body {
   transition: all 0.5s ease;
 }
 .case8 .project-two__box li.active {
-  flex: 0 0 50%;
+  /* flex: 0 0 50%; */
 }
 .case8 .project-two__box.project-two__box2 li {
   flex: 0 0 50%;
@@ -12604,19 +12604,19 @@ body.body {
     flex: 1;
   }
   .case8 .project-two__box li.active {
-    flex: 1.66;
+    /* flex: 1.66; */
   }
   .case8 .project-two__box.project-two__box2 li {
     flex: 1.66;
   }
   .case8 .project-two__box li.active .project-two__box-content .img-holder-img-bg {
     opacity: 0.8;
-    transform: perspective(540px) rotateX(0deg);
+    /* transform: perspective(540px) rotateX(0deg); */
   }
   .case8 .project-two__box li.active .project-two__box-content .project-two__box-content-inner {
     opacity: 1;
-    transform: perspective(540px) rotateY(0deg) translateY(0px);
-    transition-delay: 500ms;
+    /* transform: perspective(540px) rotateY(0deg) translateY(0px);
+    transition-delay: 500ms; */
   }
   .case8 .project-two__box li.active .project-two__box-content .project-two__box-content-inner .icon a {
     display: inline-block;
@@ -12648,7 +12648,7 @@ body.body {
     padding: 100px 0 100px;
   }
   .case8 .project-two__box li.active {
-    flex: 0 0 100%;
+    /* flex: 0 0 100%; */
   }
   .case8 .project-two__box.project-two__box2 li {
     flex: 0 0 100%;
@@ -13418,7 +13418,7 @@ body.body {
 }
 .work6 .work-box:hover .heading-area {
   transition: all 0.4s;
-  background-color: #31572C;
+  background-color: #FF7A01;
   transform: translateY(-10px);
 }
 .work6 .work-box:hover .heading-area h3 a {
@@ -13656,7 +13656,7 @@ body.body {
 }
 .work9 .work-box:hover .heading-area {
   transition: all 0.4s;
-  background-color: #2A9134;
+  background-color: #FF7A01;
   transform: translateY(-10px);
 }
 .work9 .work-box:hover .heading-area h3 a {
@@ -13737,7 +13737,7 @@ body.body {
   transition: all 0.4s;
 }
 .work10 .work-box:hover .heading {
-  background-color: #FA6444;
+  background-color: #fc7629;
   transition: all 0.4s;
   transform: translateY(-5px);
 }
@@ -17454,7 +17454,7 @@ li.has-dropdown1 span {
 +++++++++++++++++++++++++++++++++
 */
 .header-area.header-area1 .header-elements .main-menu-ex {
-  padding: 2px 24px;
+  padding: 2px 15px;
   position: relative;
 }
 .header-area.header-area1 .header-elements .main-menu-ex ul li ul {
@@ -17516,7 +17516,7 @@ li.has-dropdown1 span {
   font-size: 16px;
   display: block;
   font-weight: 500;
-  padding: 8px 15px;
+  padding: 8px 10px;
   transition: all 0.3s;
 }
 .header-area.header-area1 .header-elements .main-menu-ex ul li a:hover {
@@ -21030,8 +21030,184 @@ li.has-dropdown1 span {
   background-color: #F3F3F3 !important;
  }
 
+
+ .text-anime-style-3{
+  font-weight: 700 !important;
+ }
+
+
+ .hero-area3{
+  min-height: 850px !important;
+ }
+
+  .hero6{
+  min-height: 850px !important;
+ }
+
+.hero-area5 {
+  min-height: 850px !important;
+ }
+
+ .hero-area3{
+  min-height: 850px !important;
+ }
+
+ .hero6 .main-heading span.span{
+  text-transform: none;
+  font-size: 16px !important;
+ }
+
+
+ .hero-area5 .main-heading{
+  padding-top: 80px !important;
+ }
+ .hero-area3 .main-heading{
+  padding-top: 80px !important;
+ }
+ .hero6 .main-heading{
+  padding-top: 80px !important;
+ }
+ .hero7 .main-heading{
+  margin-top: 0px;
+  padding-top: 80px !important;
+ }
+ .hero-area2 .main-heading{
+  margin-top: 0px;
+  padding-top: 80px !important;
+ }
+ 
+@media (max-width: 767px) {
+  .hero-area5 .main-heading{
+    padding-top: 140px !important;
+   }
+   .hero6 .main-heading{
+    padding-top: 140px !important;
+   }
+   .hero-area3 .main-heading{
+    padding-top: 30px !important;
+   }
+   .hero-area2 .main-heading{
+    margin-top: 0px;
+    padding-top: 140px !important;
+   }
+}
  /* .heading4 p{
   color: black !important;
  } */
 
+
+body{
+  font-family: "Figtree", sans-serif !important;
+}
+body p{
+  font-family: "Figtree", sans-serif !important;
+}
  
+body div{
+  font-family: "Figtree", sans-serif !important;
+}
+ 
+body h1{
+  font-family: "Figtree", sans-serif !important;
+}
+ 
+ h1{
+  font-family: "Figtree", sans-serif !important;
+}
+ 
+ h2{
+  font-family: "Figtree", sans-serif !important;
+}
+ 
+ h3{
+  font-family: "Figtree", sans-serif !important;
+}
+ 
+ h4{
+  font-family: "Figtree", sans-serif !important;
+}
+ 
+ h5{
+  font-family: "Figtree", sans-serif !important;
+}
+ h6{
+  font-family: "Figtree", sans-serif !important;
+}
+ a{
+  font-family: "Figtree", sans-serif !important;
+}
+ li{
+  font-family: "Figtree", sans-serif !important;
+}
+ 
+.hero10-sliders .hero10-single.slick-current.slick-active .main-heading h1{
+  font-weight: 700;
+}
+
+
+
+.hero7 .main-heading h1{
+  font-size: 64px !important;
+}
+.hero-area5 .main-heading h1{
+  font-size: 64px !important; 
+}
+.hero-area3 .main-heading h1{
+  font-size: 64px !important;
+}
+.hero-area2 .main-heading h1{
+  font-size: 64px !important;
+}
+.hero6 .main-heading h1{
+  font-size: 64px !important;
+}
+
+@media (max-width: 768px) {
+  .hero7 .main-heading h1{
+    font-size: 40px !important;
+  }
+  .hero-area5 .main-heading h1{
+    font-size: 40px !important; 
+  }
+  .hero-area3 .main-heading h1{
+    font-size: 40px !important;
+  }
+  .hero-area2 .main-heading h1{
+    font-size: 40px !important;
+  }
+  .hero6 .main-heading h1{
+    font-size: 40px !important;
+  }
+  
+}
+
+.heading1 p{
+  color: black;
+}
+
+.heading5 p{
+  color: black;
+}
+.service8 .service-box .heading p{
+  color: black;
+}
+.service9 .service-box p{
+  color: black;
+}
+
+.work10 .work-box .heading p{
+  color: black;
+}
+
+.work6 .work-box .heading-area p{
+  color: black;
+}
+
+.heading3 p{
+  color: black;
+}
+
+
+.highlighted-header{
+  color: #FF7A01 !important;
+}
