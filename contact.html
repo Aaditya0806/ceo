@@ -27,6 +27,9 @@
 
      <!--=====JQUERY=======-->
      <script src="assets/js/jquery-3-6-0.min.js"></script>
+
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 <body class="body">
 
@@ -548,6 +551,7 @@
                                   <textarea id="fmessage" rows="4" placeholder="Message"></textarea>
                                 </div>
                               </div>
+                              <div class="col-md-12 g-recaptcha" data-sitekey="6Leyt-8qAAAAALVfmWDXAfEPKfx01kNg_SVyaSYy"></div>
           
                               <div class="col-md-12">
                                 <button  type="submit">
@@ -959,6 +963,83 @@ import { createClient } from 'jsr:@supabase/supabase-js@2'
 
 
 
+<!-- <script type="module">
+  import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+
+  let supabase = createClient(
+    "https://iaesslpmimgzzpgxpopv.supabase.co",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhZXNzbHBtaW1nenpwZ3hwb3B2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDExNjM0MjMsImV4cCI6MjA1NjczOTQyM30.KySVO8ISYjM6KJBl2mJPr6MbxX2CNndXMcrfzZ0rTxY"
+  );
+
+  (function () {
+    emailjs.init("N7uBOExvFiTH9Bjzz");
+  })();
+
+  document.getElementById("contactForm").addEventListener("submit", async function (e) {
+    e.preventDefault(); 
+
+    console.log("Submitting form...");
+
+    
+
+    
+    let name = document.getElementById("fname").value;
+    let lname = document.getElementById("lname").value;
+    let femail = document.getElementById("femail").value;
+    let inquiry = document.getElementById("inquirySelect").value;
+    let phone = document.getElementById("fphone").value;
+    let message = document.getElementById("fmessage").value;
+
+    let templates = {
+      from_name: femail,
+      name: name,
+      lname: lname,
+      email: femail,
+      phone: phone,
+      enquiry: inquiry,
+      message: message,
+    };
+
+    try {
+    
+      let { data, error } = await supabase.from("contact-details").insert([
+        {
+          Name: name, 
+    Email: femail,
+    Phone: phone,
+    Enquiry: inquiry,
+    Message: message,
+        },
+      ]);
+      console.log("Supabase Response:", data);
+     console.log("Supabase Error:", error);
+
+      if (error) {
+        console.error("Supabase Insert Error:", error);
+        alert("Error saving data!");
+        return;
+      }
+
+      console.log("Supabase Insert Success:", data);
+
+    
+      emailjs.send("service_uv2oljd", "template_pnp1r6q", templates).then(
+        (response) => {
+          console.log("Email SUCCESS!", response.status, response.text);
+          alert("Data Submitted Successfully!");
+        },
+        (error) => {
+          console.error("Email FAILED...", error);
+        }
+      );
+    } catch (error) {
+      console.error("Unexpected Error:", error);
+      alert("Something went wrong!");
+    }
+  });
+</script> -->
+
+
 <script type="module">
   import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
@@ -973,8 +1054,14 @@ import { createClient } from 'jsr:@supabase/supabase-js@2'
 
   document.getElementById("contactForm").addEventListener("submit", async function (e) {
     e.preventDefault(); // Prevent page reload
-
     console.log("Submitting form...");
+
+    // Validate Google reCAPTCHA
+    let recaptchaResponse = grecaptcha.getResponse();
+    if (!recaptchaResponse) {
+      alert("Please verify that you are not a robot!");
+      return;
+    }
 
     // Get form data
     let name = document.getElementById("fname").value;
@@ -998,15 +1085,13 @@ import { createClient } from 'jsr:@supabase/supabase-js@2'
       // Insert into Supabase
       let { data, error } = await supabase.from("contact-details").insert([
         {
-          Name: name,  // Keep exact capitalization
-    Email: femail,
-    Phone: phone,
-    Enquiry: inquiry,
-    Message: message,
+          Name: name,
+          Email: femail,
+          Phone: phone,
+          Enquiry: inquiry,
+          Message: message,
         },
       ]);
-      console.log("Supabase Response:", data);
-     console.log("Supabase Error:", error);
 
       if (error) {
         console.error("Supabase Insert Error:", error);
@@ -1026,6 +1111,10 @@ import { createClient } from 'jsr:@supabase/supabase-js@2'
           console.error("Email FAILED...", error);
         }
       );
+
+      // Reset reCAPTCHA after successful submission
+      grecaptcha.reset();
+
     } catch (error) {
       console.error("Unexpected Error:", error);
       alert("Something went wrong!");
